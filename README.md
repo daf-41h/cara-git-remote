@@ -54,7 +54,7 @@
        ```
     - Commit dengan
        ```bash
-       $ git status
+       $ git commit -m "komentar"
        ```
     - Push dengan
        ```bash

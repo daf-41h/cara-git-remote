@@ -7,27 +7,31 @@
    ```bash
    $ cd <lokasi-folder>
    ```
-5. **Menambahkan File atau Folder ke Staging Area**
+5. **Membuat repositori Git lokal**
+   ```bash
+   $ git init
+   ```
+6. **Menambahkan File atau Folder ke Staging Area**
    ```bash
    $ git add <"nama-file" atau "nama-folder" jika ingin add semua file dan folder gunakan tanda titik "."> git add -A
    ```
-6. **Melihat Status File**
+7. **Melihat Status File**
    ```bash
    $ git status
    ```
-7. **Melakukan Commit**
+8. **Melakukan Commit**
    ```bash
    $ git commit -m "komentar"
    ```
-8. **Melihat Branch yang Ada**
+9. **Melihat Branch yang Ada**
    ```bash
    $ git branch
    ```
-9. **Menambahkan Remote Repository**
+10. **Menambahkan Remote Repository**
    ```bash
    $ git remote add <nama: sering menggunakan "origin"> <urlnamarepo>
    ```
-10. **Menampilkan Informasi Tentang Remote Repository**
+11. **Menampilkan Informasi Tentang Remote Repository**
     ```bash
     $ git remote
     ```
@@ -35,15 +39,15 @@
     ```bash
     $ git remote -v
     ```
-11. **Melihat URL Remote yang Terhubung**
+12. **Melihat URL Remote yang Terhubung**
     ```bash
     $ git remote get-url origin
     ```
-12. **Melakukan Push ke Remote Repository**
+13. **Melakukan Push ke Remote Repository**
     ```bash
     $ git push origin main
     ```
-13. **Jika Sudah Melakukan Commit dan Ingin Menambahkan Perubahan Lagi, Ulangi Langkah 5 hingga 12:**
+14. **Jika Sudah Melakukan Commit dan Ingin Menambahkan Perubahan Lagi, Ulangi Langkah 5 hingga 12:**
     - Tambahkan file lagi dengan
        ```bash
        $ git add <"nama-file" atau "nama-folder" jika ingin add semua file dan folder gunakan tanda titik "."> git add -A
@@ -56,11 +60,11 @@
        ```bash
        $ git push origin main
        ```
-14. **Jika Perubahan Pada Repository Remote Dilakukan dan Anda Ingin Menariknya ke Local, Lakukan Git Pull**
+15. **Jika Perubahan Pada Repository Remote Dilakukan dan Anda Ingin Menariknya ke Local, Lakukan Git Pull**
     ```bash
     $ git pull origin main
     ```
-15. **Menghapus Remote dari Repository Lokal, Lakukan git remove/re **
+16. **Menghapus Remote dari Repository Lokal, Lakukan git remove/re **
     ```bash
     $ git remote re <nama-remote>
     ```
